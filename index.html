@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Button</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-container">
+        <button id="surpriseButton" onclick="showPopup()">
+            Click me!
+        </button>
+    </div>
+
+    <div id="popup" class="popup">
+        <textarea id="userContent" placeholder="Enter your content here..."></textarea>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button onclick="setContent()">Set Content</button>
+        <button onclick="clearContent()">Clear</button>
+    </div>
+
+    <div id="displayContent" class="display-content"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
