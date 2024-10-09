@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
     <title>Surprise Button</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
 </head>
 <body>
-    <div class="button-container">
-        <button id="surpriseButton" onclick="showPopup()">
+    <div class="button-container"> <!-- Container for the button -->
+        <button id="surpriseButton" onclick="showPopup()"> <!-- Button with click event -->
             Click me!
         </button>
     </div>
 
-    <div id="popup" class="popup">
-        <textarea id="userContent" placeholder="Enter your content here..."></textarea>
-        <input type="file" id="imageUpload" accept="image/*">
-        <button onclick="setContent()">Set Content</button>
-        <button onclick="clearContent()">Clear</button>
+    <div id="popup" class="popup"> <!-- Popup for editing content -->
+        <textarea id="userContent" placeholder="Enter your content here..."></textarea> <!-- Text area for user input -->
+        <input type="file" id="imageUpload" accept="image/*"> <!-- File input for images -->
+        <button onclick="setContent()">Set Content</button> <!-- Button to set content -->
+        <button onclick="clearContent()">Clear</button> <!-- Button to clear content -->
     </div>
 
-    <div id="displayContent" class="display-content"></div>
+    <div id="displayContent" class="display-content"></div> <!-- Area to display content -->
 
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
 </body>
 </html>
