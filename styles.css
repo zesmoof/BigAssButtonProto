@@ -1,55 +1,55 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light background color */
 }
 
 .button-container {
-    position: relative;
+    position: relative; /* Positioning context for popup */
 }
 
 #surpriseButton {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    font-size: 20px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-    outline: none;
+    width: 150px; /* Button width */
+    height: 150px; /* Button height */
+    border-radius: 75px; /* Circular shape */
+    font-size: 20px; /* Font size */
+    border: none; /* No border */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove focus outline */
 }
 
 #surpriseButton:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker color on hover */
 }
 
 .popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    border: 2px solid #007BFF;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    background-color: white; /* White background */
+    border: 2px solid #007BFF; /* Border color */
+    padding: 20px; /* Padding inside popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
 
 textarea {
-    width: 300px;
-    height: 100px;
+    width: 300px; /* Width of textarea */
+    height: 100px; /* Height of textarea */
 }
 
 .display-content {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 20px; /* Space above displayed content */
+    text-align: center; /* Center text */
 }
 
 img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 300px; /* Maximum width for images */
+    max-height: 300px; /* Maximum height for images */
 }
